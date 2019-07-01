@@ -1,0 +1,31 @@
+{
+  "name": "peppereditor",
+  "version": "0.1.0",
+  "description": "기사작성용 텍스트 에디터",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knight0202/PepperEditor.git"
+  },
+  "keywords": [
+    "editor"
+  ],
+  "author": "Thomas Yoo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/knight0202/PepperEditor/issues"
+  },
+  "homepage": "https://github.com/knight0202/PepperEditor#readme",
+  "devDependencies": {
+    "electron": "^5.0.6"
+  },
+  "dependencies": {
+    "custom-electron-titlebar": "^3.0.10",
+    "dragula": "^3.7.2",
+    "electron-tabs": "^0.9.5"
+  }
+}
